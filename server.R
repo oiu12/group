@@ -1,6 +1,6 @@
 library(maps)
 library(mapproj)
-counties <- readRDS("data/counties.rds")
+counties <- readRDS("counties.rds")
 source("helpers.R")
 
 shinyServer(
